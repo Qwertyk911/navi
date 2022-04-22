@@ -41,6 +41,7 @@ export default {
     }
   },
   mounted() {
+    console.log("TEST")
     this.initMap();
     this.map.on('click', (event) => {
       this.mapClick(event);
